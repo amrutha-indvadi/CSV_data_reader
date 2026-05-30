@@ -10,10 +10,11 @@ A C application that reads student records from a CSV file, parses the data, and
 
 ## How It Works
 1. The program opens the CSV file.
-2. Each line is read sequentially.
-3. The record is split into:
+   (A sample CSV file (Records.csv) is included in the repository so you can run and test the program immediately.)
+3. Each line is read sequentially.
+4. The record is split into:
    * Student ID
    * Student Name
    * Student Marks
-4. The parsed data is stored in a structure.
-5. The student information is displayed on the console.
+5. The parsed data is stored in a structure.
+6. The student information is displayed on the console.
